@@ -1,0 +1,233 @@
+{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header nav ul li { 
+    color: rgb(0, 0, 0);
+display: inline;
+margin-right: 10px;
+font-family: "Didact Gothic";
+}
+
+.ColorPrincipal {
+    color: #bc5a45;
+}
+
+#Colibria{
+    letter-spacing: 15vh;
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    font-family: "Abril Fatface";
+    font-size: 100px;
+
+    }
+.Subtitulo {
+    letter-spacing: 10px;
+    position: absolute;
+    top: 400px;
+    left: 15%;
+    font-family: "Didact Gothic";
+}
+
+.Subtitulo2 {
+    letter-spacing: 10px;
+    position: absolute;
+    top: 400px;
+    left: 75%;
+    font-family: "Didact Gothic";
+}
+
+#LogoInicio {
+    position: relative;
+    bottom: 70px;
+    left: 47%;
+}
+
+.ImagenInicio
+{
+    position: relative;
+    display: inline-block;
+}
+
+.FondoSecundario {
+    background-color: #ffcc5c;
+    position: relative;
+bottom: 80px;
+
+}
+
+.TextoCentrado {
+    text-align: center;
+}
+
+.FontL {
+    font-size:larger;
+}
+
+.FontXL {
+    font-size: xx-large;
+}
+
+.Size60 {
+    font-size: 100px;
+}
+.Tipografia2 {
+    font-family:"Didact Gothic";
+}
+
+.Tipografia1 {
+    font-family: "Abril Fatface";
+}
+
+.Interlineado{
+    line-height: 10px;
+}
+footer i {
+    position: relative;
+    left: 47%;
+    color: #000000bb;
+}
+#FooterInfo {
+    position: relative;
+    top: -50px;
+}
+
+.TextoDerecha {
+    text-align: right;
+}
+
+.Interletreado {
+    letter-spacing: 20px;
+}
+
+#Artesanal {
+    position: relative;
+    left: 25%;
+    top: -10px;
+    font-size: 30px;
+}
+#Vegetal {
+    position: relative;
+    left: 46%;
+    bottom: 80px;
+    font-size: 30px;
+}
+
+#Deliciosa {
+    position: relative;
+    left: 69%;
+    bottom: 150px;
+    font-size: 30px;
+}
+
+.Position1 {
+    position:relative;
+    top: 10vh;
+}
+
+.Position2 {
+    position: relative;
+    top: 15vh;
+}
+
+.BarraC {
+    display: inline;
+    margin-left: 16% ;
+}
+
+.FondoC {
+    background-color: #ffcc5c;
+    height: 70px;
+    line-height: 30px;
+}
+
+.Catering {
+    position: relative;
+    bottom: 410px;
+    right: 350px;
+    line-height: 15px;
+}
+
+.TextoIzquierda {
+    position: relative;
+    left: 270px ;
+}
+
+.ImagenesCatering {
+width: 400px;
+height: 600px;
+position: relative;
+border-image: none;
+left: 17%;
+}
+
+
+.Fondo2 {
+    background-color: #ffcc5c;
+    position: relative;
+    height: 200px;
+    margin-bottom: 5%;
+}
+
+.Picada {
+    width: 100%;
+    position: relative;
+}
+
+.Position3 {
+    bottom: 150px;
+}
+
+.Body {
+    background: url(../Assets/PanDulce.jpg);
+    background-size: cover;
+    height: 200px;
+}
+
+form {
+    position: relative;
+    text-align: center;
+    font-size: larger;
+    background-color: #ffcb5c6b;
+    border-radius: 10px;
+    width: 40%;
+    height: 320px;
+    align-items: center;
+    left: 29%;
+    }
+
+    .Btn {
+        background-color: #bc5a45;
+        color: white;
+        border: #bc5a45;
+        border-radius: 4px;
+        padding: 10px 15px 10px 15px;
+        font-family: "Didact Gothic";
+        text-align: center;
+    }
+
+    Input {
+        background-color: #bc5b453f;
+        border-radius: 3px;
+        border-style: none;
+    }
+
+    .Footer {
+        position: relative;
+        top: 500px;
+    }
+
+    .Footer2 {
+        position: relative;
+        top: 300px;
+    }
+
+    .Fondo3 {
+        position: relative;
+        background-color: #ffcc5c;
+        height: 100px;
+    }
