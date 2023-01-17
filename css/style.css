@@ -1,163 +1,166 @@
-{ 
+*{ 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 
-header nav ul li { 
+
+header nav ul li a{ 
     color: rgb(0, 0, 0);
-display: inline;
-margin-right: 10px;
-font-family: "Didact Gothic";
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+    font-family: "Didact Gothic";
+    text-decoration: none;
+    list-style-type:none;
+
 }
 
-.ColorPrincipal {
+header nav ul li {
+display: inline-block;
+margin-right: 1vw;
+margin: 1vw;
+text-align: center;
+
+}
+
+h1 {
+    color: #bc5a45;
+    font-family: "Abril Fatface";
+    font-size: 100px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+.color_principal {
     color: #bc5a45;
 }
 
-#Colibria{
-    letter-spacing: 15vh;
+#colibria{
+    letter-spacing: 8vw;
     position: absolute;
-    top: 15%;
-    left: 12%;
+    top: 10vh;
+    left: 118px;
     font-family: "Abril Fatface";
     font-size: 100px;
 
     }
-.Subtitulo {
+.subtitulo {
     letter-spacing: 10px;
     position: absolute;
-    top: 400px;
+    top: 30vh;
     left: 15%;
     font-family: "Didact Gothic";
+    
 }
 
-.Subtitulo2 {
+.subtitulo2 {
     letter-spacing: 10px;
     position: absolute;
-    top: 400px;
+    top: 30vh;
     left: 75%;
     font-family: "Didact Gothic";
 }
 
-#LogoInicio {
+#logo_inicio {
     position: relative;
     bottom: 70px;
     left: 47%;
+    width: 110px;
+    height: 140px;
 }
 
-.ImagenInicio
+.imagen_inicio
 {
     position: relative;
     display: inline-block;
+    width: 100%;
+    margin-top: 20px;
 }
 
-.FondoSecundario {
+.fondo_secundario {
     background-color: #ffcc5c;
     position: relative;
 bottom: 80px;
-
 }
 
-.TextoCentrado {
-    text-align: center;
-}
 
-.FontL {
+.font_l {
     font-size:larger;
 }
 
-.FontXL {
+.font_xl {
     font-size: xx-large;
 }
 
-.Size60 {
+.size60 {
     font-size: 100px;
 }
-.Tipografia2 {
+.tipografia2 {
     font-family:"Didact Gothic";
 }
 
-.Tipografia1 {
+.tipografia1 {
     font-family: "Abril Fatface";
 }
 
-.Interlineado{
-    line-height: 10px;
+.interlineado{
+    line-height: 6vh;
 }
-footer i {
+footer div a i {
+display: flex;
+flex-direction: row;
+left: 42%;
+    margin-left: 5vh;
     position: relative;
-    left: 47%;
     color: #000000bb;
+
 }
-#FooterInfo {
+#footer_info {
     position: relative;
     top: -50px;
 }
 
-.TextoDerecha {
+.texto_derecha {
     text-align: right;
 }
 
-.Interletreado {
+.interletreado {
     letter-spacing: 20px;
 }
 
-#Artesanal {
-    position: relative;
-    left: 25%;
-    top: -10px;
-    font-size: 30px;
-}
-#Vegetal {
-    position: relative;
-    left: 46%;
-    bottom: 80px;
-    font-size: 30px;
-}
 
-#Deliciosa {
-    position: relative;
-    left: 69%;
-    bottom: 150px;
-    font-size: 30px;
-}
 
-.Position1 {
-    position:relative;
-    top: 10vh;
-}
 
-.Position2 {
+.position2 {
     position: relative;
     top: 15vh;
 }
 
-.BarraC {
+.barra_c {
     display: inline;
     margin-left: 16% ;
 }
 
-.FondoC {
+.fondo_c {
     background-color: #ffcc5c;
     height: 70px;
     line-height: 30px;
 }
 
-.Catering {
+.catering {
     position: relative;
     bottom: 410px;
     right: 350px;
     line-height: 15px;
 }
 
-.TextoIzquierda {
+.texto_izquierda {
     position: relative;
     left: 270px ;
 }
 
-.ImagenesCatering {
+.img_catering {
 width: 400px;
 height: 600px;
 position: relative;
@@ -166,23 +169,23 @@ left: 17%;
 }
 
 
-.Fondo2 {
+.fondo2 {
     background-color: #ffcc5c;
     position: relative;
     height: 200px;
     margin-bottom: 5%;
 }
 
-.Picada {
+.picada {
     width: 100%;
     position: relative;
 }
 
-.Position3 {
+.position3 {
     bottom: 150px;
 }
 
-.Body {
+.body {
     background: url(../Assets/PanDulce.jpg);
     background-size: cover;
     height: 200px;
@@ -192,15 +195,19 @@ form {
     position: relative;
     text-align: center;
     font-size: larger;
-    background-color: #ffcb5c6b;
+    background-color: #ffcb5c97;
     border-radius: 10px;
-    width: 40%;
+    width: 400px;
     height: 320px;
     align-items: center;
-    left: 29%;
+    left: 37%;
+    font-family: "Didact Gothic";
+    color: #bc5a45;
+    margin-bottom: 17vh;
+    margin-top: 6vh;
     }
 
-    .Btn {
+    .btn {
         background-color: #bc5a45;
         color: white;
         border: #bc5a45;
@@ -210,24 +217,218 @@ form {
         text-align: center;
     }
 
-    Input {
+    input {
         background-color: #bc5b453f;
         border-radius: 3px;
         border-style: none;
     }
 
-    .Footer {
-        position: relative;
-        top: 500px;
-    }
-
-    .Footer2 {
-        position: relative;
-        top: 300px;
-    }
-
-    .Fondo3 {
+    .fondo3 {
         position: relative;
         background-color: #ffcc5c;
         height: 100px;
     }
+
+    .padre_flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 5vh;
+        
+    }
+
+    .img_flex {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    .tamaño_imagen {
+        position: relative;
+        width: 20%;
+        height: 50%;
+        
+    }
+    .tamaño_imagen_transicion {
+        position: relative;
+        width: 20%;
+        height: 50%;
+    }   
+
+    .tamaño_imagen_transicion:hover {
+        width: 30%;
+        height: 60%;
+        transition: all 1s;
+
+    }
+
+    .contenedor_flex_inicio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 5vh;
+        color:#bc5a45;
+        background-color:#ffcc5c;
+    }
+
+    .contenedor_info_pyp {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        color: #bc5a45;
+        line-height: 4vh;
+        margin-bottom: 5vh;
+    }
+
+    .article_pyp {
+        margin-top: 10vh;
+        font-size: 20px;
+        text-align: center;
+        color: #bc5a45;
+        background-color:#ffcc5c;
+        margin-bottom: 10vh;
+        
+    }
+
+    .sub_congelados {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        text-align: center;
+        margin-top: 5vh;
+        color: #bc5a45;
+        font-family: "Didact Gothic";
+        text-decoration: none;
+        list-style-type:none;
+        font-size: 25px;
+        background-color: #ffcc5c;
+    }
+
+    .info_congelados {
+        text-align: center;
+        color: #bc5a45;
+        margin-top: 6vh;
+        margin-bottom: 8vh;
+
+    }
+
+    .sub_catering {
+        color: #bc5a45;
+        text-align: center;
+        margin-top: 3vh;
+        margin-bottom: 2vh;
+    }
+
+
+
+main nav ul li {
+    display: inline-block;
+    margin: 1vh 6vw;
+}
+
+
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    header nav ul li {
+        font-size: 12px;
+    }
+
+    #colibria {
+        letter-spacing: 5vw;
+        top: 8vh;
+        left: 6vw;
+        font-size: 80px;
+    }
+
+    
+    .subtitulo {
+        letter-spacing: 2%;
+        top: 22vh;
+        left: 8%;
+        font-size: small;
+    }
+    
+    .subtitulo2 {
+        letter-spacing: 10px;
+        top: 22vh;
+        left: 76%;
+        font-size: small;
+    }
+
+    #logo_inicio {
+        position: relative;
+        bottom: 50px;
+        left: 45%;
+        width: 80px; height: 100px;
+    }
+
+    .imagen_inicio{
+    width: 100%;
+    margin-top: 23px;
+    }
+
+    .contenedor_flex_inicio {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 3vh;
+        color:#bc5a45;
+        background-color:#ffcc5c;
+        width: 599px;
+    }
+    .font_l {
+        font-size:medium;
+    }
+    
+    .font_xl {
+        font-size:xx-large;
+    }
+
+    footer div a i {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        left: 30vw;
+        top: 6vh;
+            color: #000000bb;
+        
+        }
+    footer p {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 10vh;
+        font-size: small;
+    }
+
+    .texto_derecha {
+            text-align: center;
+    }
+
+    h1 {
+        font-size: 50px;
+        margin-top: 2vh;
+    }
+
+    .article_pyp {
+        margin-top: 10vh;
+        font-size: 16px;
+        text-align: center;
+        color: #bc5a45;
+        background-color:#ffcc5c;
+        margin-bottom: 6vh;
+        
+    }
+}
