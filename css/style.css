@@ -104,32 +104,42 @@ bottom: 80px;
     font-family: "Abril Fatface";
 }
 
-.interlineado{
-    line-height: 6vh;
-}
-footer div a i {
-display: flex;
-flex-direction: row;
-left: 42%;
-    margin-left: 5vh;
-    position: relative;
-    color: #000000bb;
-
-}
-#footer_info {
-    position: relative;
-    top: -50px;
-}
-
-.texto_derecha {
-    text-align: right;
-}
-
 .interletreado {
     letter-spacing: 20px;
 }
 
+.interlineado{
+    line-height: 6vh;
+}
+footer div a i {
+    display: flex;
+    flex-direction: row;
+    grid-area: icon;
+    color: #000000bb;
 
+}
+
+.grid_nombre {
+    display: grid;
+    grid-area: nombre;
+    justify-items: center;
+}
+
+.grid_direccion {
+    display: grid;
+    grid-area: ubicacion;
+    justify-items: center;
+    margin-bottom: 2vh;
+}
+
+
+footer {
+    display: grid;
+    grid-template-areas:"icon"
+                        "nombre"
+                        "ubicacion";
+
+}
 
 
 .position2 {
@@ -348,7 +358,7 @@ main nav ul li {
     #colibria {
         letter-spacing: 5vw;
         top: 8vh;
-        left: 6vw;
+        text-align: center;
         font-size: 80px;
     }
 
@@ -386,7 +396,7 @@ main nav ul li {
         margin-bottom: 3vh;
         color:#bc5a45;
         background-color:#ffcc5c;
-        width: 599px;
+        width: 100%;
     }
     .font_l {
         font-size:medium;
@@ -432,3 +442,4 @@ main nav ul li {
         
     }
 }
+
