@@ -135,6 +135,8 @@ footer {
                         "nombre"
                         "ubicacion";
     justify-items: center;
+    text-align: center;
+
 }
 
 footer div a i {
@@ -154,7 +156,8 @@ footer div a i {
     display: grid;
     grid-area: ubicacion;
     justify-items: center;
-    margin-bottom: 2vh;
+
+
 }
 .catering {
     position: relative;
@@ -276,7 +279,7 @@ form {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 5vh;
+        margin-bottom: 15vh;
         color:#bc5a45;
         background-color:#ffcc5c;
     }
@@ -341,35 +344,75 @@ main nav ul li {
     display: grid;
     grid-template-areas: "titulo1 titulo2"
                             "card1 card2";
-    grid-template-columns:40vw 40vw;
-    grid-template-rows:
+    grid-template-columns:30vw 30vw;
+    gap: 10vw;
+    justify-content: center;
 }
 
 .titulo1 {
-    display: inline-block;
+    display: block;
     grid-area: titulo1;
-    justify-content: left;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: lighter;
+    margin-bottom: 8%;
+    font-family: "Didact Gothic";
+    font-weight: initial;
+    color: #bc5a45;
 
 }
 .card1 {
-display: inline-block;
+display: block;
 grid-area: card1;
-justify-content: center;
+text-align: center;
+background-color: #dbdbab;
+border-radius: 5%;
+padding: 7%;
+font-family: "Didact Gothic";
+line-height: 3vh;
+color: #bc5a45;
 }
 
 .titulo2 {
-    display: inline-flex;
+    display: block;
     grid-area: titulo2;
-    justify-content: right;
-
+    text-align: center;
+    margin-bottom: 8%;
+    font-family: "Didact Gothic";
+    font-weight: initial;
+    color: #bc5a45;
 }
 .card2 {
-    display: inline-flex;
     grid-area: card2;
-    justify-content: right;
+    text-align: center;
+    background-color: #dbdbab;
+    border-radius: 5%;
+    color: #bc5a45;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    font-family: "Didact Gothic";
+    line-height: 3vh;
 
 }
 
+.card2 ul li {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.card1:hover {
+    font-size: large;
+    padding: 15%;
+    transition: 2s;
+}
+
+.card2:hover {
+    font-size: large;
+    padding: 15%;
+    transition: 2s;
+}
+
+}
 
 @media screen and (max-width: 600px) {
     *{
