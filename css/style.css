@@ -4,7 +4,9 @@
     box-sizing: border-box;
 }
 
-
+body {
+    background-color: #fdf9ef;
+}
 
 header nav ul li a{ 
     color: rgb(0, 0, 0);
@@ -14,74 +16,52 @@ header nav ul li a{
     font-family: "Didact Gothic";
     text-decoration: none;
     list-style-type:none;
-
+    position: relative;
 }
 
 header nav ul li {
-display: inline-block;
-margin-right: 1vw;
-margin: 1vw;
-text-align: center;
-
+    display: inline-block;
+    margin-right: 1vw;
+    margin: 1vw;
+    text-align: center;
 }
+
+
 
 h1 {
     color: #bc5a45;
     font-family: "Abril Fatface";
-    font-size: 100px;
+    font-size: 90px;
     letter-spacing: 10px;
     text-align: center;
 }
+
 .color_principal {
     color: #bc5a45;
 }
 
 #colibria{
-    letter-spacing: 8vw;
-    position: absolute;
-    top: 10vh;
-    left: 10vw;
+    letter-spacing: 6vw;
     font-family: "Abril Fatface";
-    font-size: 100px;
-
     }
+
 .subtitulo {
-    letter-spacing: 10px;
-    position: absolute;
-    top: 30vh;
-    left: 15%;
-    font-family: "Didact Gothic";
-    
-}
-
-.subtitulo2 {
-    letter-spacing: 10px;
-    position: absolute;
-    top: 30vh;
-    left: 75%;
+    letter-spacing: 1vw;
+    margin-top: 2%;
+    margin-bottom: 3%;
     font-family: "Didact Gothic";
 }
 
-#logo_inicio {
-    position: relative;
-    bottom: 70px;
-    left: 47%;
-    width: 110px;
-    height: 140px;
-}
-
-.imagen_inicio
-{
-    position: relative;
-    display: inline-block;
+.imagen_inicio img{
     width: 100%;
-    margin-top: 20px;
 }
 
-.fondo_secundario {
-    background-color: #ffcc5c;
-    position: relative;
-bottom: 80px;
+header nav ul li img {
+
+    align-items: right;
+    width: 50px;
+    height: 70px;
+
 }
 
 
@@ -93,9 +73,6 @@ bottom: 80px;
     font-size: xx-large;
 }
 
-.size60 {
-    font-size: 100px;
-}
 .tipografia2 {
     font-family:"Didact Gothic";
 }
@@ -193,25 +170,36 @@ left: 17%;
 }
 
 .body {
-    background: url(../assets/pan_dulce.jpg);
+    background: url(../assets/ñoquis_calabaza.jpg);
     background-size: cover;
     height: 200px;
 }
 
 form {
     position: relative;
+    left: 39%;
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    font-size: larger;
+    font-size: medium;
     background-color: #ffcb5c97;
     border-radius: 10px;
     width: 400px;
-    height: 320px;
+    height: 400px;
     align-items: center;
-    left: 37%;
     font-family: "Didact Gothic";
     color: #bc5a45;
     margin-bottom: 17vh;
     margin-top: 6vh;
+    padding-top: 14px;
+    }
+
+    input {
+        background-color: #bc5b453f;
+        padding: 1%;
+        border-radius: 3px;
+        border-style: none;
+        font-size: medium;
     }
 
     .btn {
@@ -224,10 +212,10 @@ form {
         text-align: center;
     }
 
-    input {
-        background-color: #bc5b453f;
-        border-radius: 3px;
-        border-style: none;
+    .input_mensaje {
+        padding-top : 5%;
+        padding-bottom: 5%;
+        margin-bottom: 3%;
     }
 
     .fondo3 {
@@ -278,8 +266,7 @@ form {
     .contenedor_flex_inicio {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        margin-bottom: 15vh;
+        margin-bottom: 5vh;
         color:#bc5a45;
         background-color:#ffcc5c;
     }
@@ -386,8 +373,7 @@ color: #bc5a45;
 }
 .info2 {
     grid-area: card2;
-    text-align: center;
-    background-color: #dbdbab;
+        background-color: #dbdbab;
     border-radius: 5%;
     color: #bc5a45;
     padding-top: 7%;
@@ -403,109 +389,103 @@ color: #bc5a45;
 }
 
 .carousel {
-    width: 60%;
+    width: 70%;
     justify-content: center;
-    margin-left: 20vw;
+    margin-left: 15vw;
     padding-bottom: 5%;
 }
 
 
-@media screen and (max-width: 600px) {
-    *{
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
-
-    header nav ul li {
-        font-size: 12px;
-    }
-
-    #colibria {
-        letter-spacing: 5vw;
-        top: 8vh;
-        text-align: center;
-        font-size: 80px;
-    }
+@media screen and (max-width: 575px) {
 
     
-    .subtitulo {
-        letter-spacing: 2%;
-        top: 22vh;
-        left: 8%;
-        font-size: small;
-    }
+header nav ul li a{ 
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+    align-content: center;
+    font-family: "Didact Gothic";
+    text-decoration: none;
+    list-style-type:none;
     
-    .subtitulo2 {
-        letter-spacing: 10px;
-        top: 22vh;
-        left: 76%;
-        font-size: small;
-    }
 
-    #logo_inicio {
-        position: relative;
-        bottom: 50px;
-        left: 45%;
-        width: 80px; height: 100px;
-    }
-
-    .imagen_inicio{
-    width: 100%;
-    margin-top: 23px;
-    }
-
-    .contenedor_flex_inicio {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-bottom: 3vh;
-        color:#bc5a45;
-        background-color:#ffcc5c;
-        width: 100%;
-    }
-    .font_l {
-        font-size:medium;
-    }
-    
-    .font_xl {
-        font-size:xx-large;
-    }
-
-    footer div a i {
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        left: 30vw;
-        top: 6vh;
-            color: #000000bb;
-        
-        }
-    footer p {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        margin-top: 10vh;
-        font-size: small;
-    }
-
-    .texto_derecha {
-            text-align: center;
-    }
-
-    h1 {
-        font-size: 50px;
-        margin-top: 2vh;
-    }
-
-    .article_pyp {
-        margin-top: 10vh;
-        font-size: 16px;
-        text-align: center;
-        color: #bc5a45;
-        background-color:#ffcc5c;
-        margin-bottom: 6vh;
-        
-    }
 }
+
+header nav ul li {
+    display: inline-block;
+    margin-right: none;
+    margin: 2   vw;
+    text-align: center;
+    font-size: 60%;
+    align-content: center;
+}
+
+#colibria {
+    font-size: 300%;
+    margin-top: 5%;
+}
+
+.imagen_inicio{
+    margin-top: 8%;
+    width: 100%;
+}
+
+.subtitulo {
+    margin-bottom: 5%;
+    position: relative;
+    margin-top: 2%;
+    font-size: large;
+    word-spacing: 5%;
+}
+
+
+
+#logo_inicio {
+    width: 80px;
+    height: 110px;
+}
+
+.grid_inicio {
+    display: grid;
+    grid-template-areas: "titulo1"
+                            "card1"
+                            "titulo2"
+                            "card2";
+    grid-template-columns:40vw;
+    gap: 0vw;
+    justify-content: center;
+}
+.titulo2 {
+    margin-top: 25%;
+}
+
+.info2{
+margin-bottom: 10%;
+padding-left: 2%;
+padding-right: 2%;
+}
+
+.info2 p {
+    text-align: center;
+}
+
+.font_l {
+    font-size:medium
+}
+
+.font_xl {
+    font-size: x-large;
+}
+
+.carousel {
+    width: 100%;
+    justify-content: center;
+    margin-left: 0vw;
+    padding-bottom: 5%;
+}
+
+}
+
+
 
