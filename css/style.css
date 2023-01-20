@@ -359,9 +359,10 @@ main nav ul li {
     font-family: "Didact Gothic";
     font-weight: initial;
     color: #bc5a45;
+    font-size: large;
 
 }
-.card1 {
+.info1 {
 display: block;
 grid-area: card1;
 text-align: center;
@@ -381,38 +382,33 @@ color: #bc5a45;
     font-family: "Didact Gothic";
     font-weight: initial;
     color: #bc5a45;
+    font-size: large;
 }
-.card2 {
+.info2 {
     grid-area: card2;
     text-align: center;
     background-color: #dbdbab;
     border-radius: 5%;
     color: #bc5a45;
     padding-top: 7%;
-    padding-bottom: 7%;
+    padding-bottom: 4%;
     font-family: "Didact Gothic";
     line-height: 3vh;
 
 }
 
-.card2 ul li {
+.info2 ul li {
     text-decoration: none;
     list-style-type: none;
 }
 
-.card1:hover {
-    font-size: large;
-    padding: 15%;
-    transition: 2s;
+.carousel {
+    width: 60%;
+    justify-content: center;
+    margin-left: 20vw;
+    padding-bottom: 5%;
 }
 
-.card2:hover {
-    font-size: large;
-    padding: 15%;
-    transition: 2s;
-}
-
-}
 
 @media screen and (max-width: 600px) {
     *{
