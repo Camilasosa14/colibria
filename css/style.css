@@ -523,6 +523,24 @@ h1 {
     
 }
 
+.sub_congelados {
+    margin-top: 3vh;
+    font-size: 15px;
+}
+
+.tamaño_imagen {
+    width: 70%;
+    height: 90%;
+    margin-bottom: 2%;
+    
+}
+.fondo3 {
+    height: 50%;
+}
+
+.fondo_c {
+    height: 50%;
+}
 }
 
 
