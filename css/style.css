@@ -26,8 +26,6 @@ header nav ul li {
     text-align: center;
 }
 
-
-
 h1 {
     color: #bc5a45;
     font-family: "Abril Fatface";
@@ -54,6 +52,7 @@ h1 {
 
 .imagen_inicio img{
     width: 100%;
+    margin-bottom: 2%;
 }
 
 header nav ul li img {
@@ -267,6 +266,7 @@ form {
         display: flex;
         flex-direction: column;
         margin-bottom: 5vh;
+        margin-top: 1vh;
         color:#bc5a45;
         background-color:#ffcc5c;
     }
@@ -441,9 +441,9 @@ header nav ul li {
 
 
 
-#logo_inicio {
-    width: 80px;
-    height: 110px;
+.logo_inicio {
+    width: 50px;
+    height: 70px;
 }
 
 .grid_inicio {
@@ -483,6 +483,44 @@ padding-right: 2%;
     justify-content: center;
     margin-left: 0vw;
     padding-bottom: 5%;
+}
+
+h1 {
+    color: #bc5a45;
+    font-family: "Abril Fatface";
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+.img_flex {
+    flex-direction: column;
+}
+
+.tamaño_imagen_transicion {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    width: 50%;
+    height: 70%;
+}   
+
+.tamaño_imagen_transicion:hover {
+    width: 70%;
+    height: 80%;
+}
+
+.contenedor_info_pyp {
+    margin-bottom: 0vh;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.article_pyp {
+    margin-top: 6vh;
+    font-size: 18px;
+    margin-left: 2%;
+    margin-right: 2%;
+    
 }
 
 }
