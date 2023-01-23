@@ -26,6 +26,7 @@ header ul {
 header div img {
     margin-left: 2vw;
 }
+
 header nav ul li a {
     color: rgb(0, 0, 0);
     display: flex;
@@ -34,7 +35,6 @@ header nav ul li a {
     align-items: center;
     font-family: "Didact Gothic";
     text-decoration: none;
-
 }
 
 header nav ul li {
@@ -165,12 +165,12 @@ footer div a i {
 }
 
 
-.img_catering {
-width: 400px;
-height: 600px;
-position: relative;
-border-image: none;
-left: 17%;
+.img_catering { 
+    width: 400px;
+    height: 600px;
+    position: relative;
+    border-image: none;
+    left: 17%;
 }
 
 
@@ -271,6 +271,7 @@ form {
         height: 50%;
         
     }
+
     .tamaño_imagen_transicion {
         position: relative;
         width: 20%;
@@ -281,7 +282,6 @@ form {
         width: 30%;
         height: 60%;
         transition: all 1s;
-
     }
 
     .contenedor_flex_inicio {
@@ -310,7 +310,6 @@ form {
         color: #bc5a45;
         background-color:#ffcc5c;
         margin-bottom: 10vh;
-        
     }
 
     .sub_congelados {
@@ -332,7 +331,6 @@ form {
         color: #bc5a45;
         margin-top: 6vh;
         margin-bottom: 8vh;
-
     }
 
     .sub_catering {
@@ -369,15 +367,18 @@ main nav ul li {
     font-weight: initial;
     color: #bc5a45;
     font-size: large;
-
 }
+
 .info1 {
 display: block;
 grid-area: card1;
 text-align: center;
 background-color: #dbdbab;
 border-radius: 5%;
-padding: 7%;
+padding-top: 12%;
+padding-bottom: 12%;
+padding-left: 7%;
+padding-right: 7%;
 font-family: "Didact Gothic";
 line-height: 3vh;
 color: #bc5a45;
@@ -387,7 +388,7 @@ color: #bc5a45;
     display: block;
     grid-area: titulo2;
     text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 2%;
     font-family: "Didact Gothic";
     font-weight: initial;
     color: #bc5a45;
@@ -395,11 +396,11 @@ color: #bc5a45;
 }
 .info2 {
     grid-area: card2;
-        background-color: #dbdbab;
+    background-color: #dbdbab;
     border-radius: 5%;
     color: #bc5a45;
-    padding-top: 7%;
-    padding-bottom: 4%;
+    padding-top: 9%;
+    padding-bottom: 12%;
     font-family: "Didact Gothic";
     line-height: 3vh;
 
@@ -428,7 +429,7 @@ header nav ul li {
     margin-right: none;
     margin: 2   vw;
     text-align: center;
-    font-size: 60%;
+    font-size: 70%;
     align-content: center;
 }
 
@@ -450,12 +451,9 @@ header nav ul li {
     word-spacing: 5%;
 }
 
-
-
 .logo_inicio {
     width: 30px;
     height: 40px;
-
 }
 
 .grid_inicio {
@@ -468,6 +466,7 @@ header nav ul li {
     gap: 0vw;
     justify-content: center;
 }
+
 .titulo2 {
     margin-top: 25%;
 }
@@ -553,6 +552,20 @@ h1 {
 .fondo_c {
     height: 50%;
 }
+
+.body {
+    background: url(../assets/ñoquis_calabaza.jpg);
+    background-size:cover;
+    width: 100%;
+    height: auto;
+}
+
+form {
+    left: 16%;
+    background-color: #ffcb5cf6;
+    border-radius: 5px;
+    }
+
 }
 
 
