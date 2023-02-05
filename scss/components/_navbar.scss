@@ -38,18 +38,27 @@ header{
 .subclase {
     li {
         &:hover > { 
-            display: block;
-                ul {
-                    display: none;
-                    list-style-type: none;
-                    text-decoration: none;
-                    position: absolute;
-                    padding: 0.5% 1% 1% 0.5%;
-                    text-align: start;
-                    font-size: medium;
-                    z-index: 3;
-                    background-color: #ffcb5c88;
-                }
+            ul {
+                display: block;
+            }
+            
+
+        }
+    }
+}
+
+.subclase {
+    li {
+        ul {
+            display: none;
+            list-style-type: none;
+            text-decoration: none;
+            position: absolute;
+            padding: 0.5% 1% 1% 0.5%;
+            text-align: start;
+            font-size: medium;
+            z-index: 3;
+            background-color: #ffcb5c88;
         }
     }
 }

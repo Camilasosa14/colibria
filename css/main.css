@@ -11,127 +11,6 @@ body {
 }
 
 /* utilities */
-/* components */
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  text-decoration: none;
-  list-style-type: none;
-}
-header div img {
-  margin-left: 2vw;
-}
-header nav ul {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
-header nav ul li {
-  display: inline-block;
-  margin-right: 2vw;
-}
-header nav ul li a {
-  color: rgb(0, 0, 0);
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: center;
-  font-family: "Didact Gothic";
-  text-decoration: none;
-}
-
-.subclase li ul {
-  display: none;
-  list-style-type: none;
-  text-decoration: none;
-  position: absolute;
-  padding: 0.5% 1% 1% 0.5%;
-  text-align: start;
-  font-size: medium;
-  z-index: 3;
-  background-color: rgba(255, 203, 92, 0.5333333333);
-}
-
-.subclase li:hover > ul{
-  display: block;
-}
-
-h1 {
-  color: #bc5a45;
-  font-family: "Abril Fatface";
-  font-size: 90px;
-  letter-spacing: 10px;
-  text-align: center;
-}
-
-#colibria {
-  letter-spacing: 6vw;
-  font-family: "Abril Fatface";
-}
-
-.subtitulo {
-  letter-spacing: 1vw;
-  margin-top: 2%;
-  margin-bottom: 3%;
-  font-family: "Didact Gothic";
-}
-
-.sub_catering {
-  color: #bc5a45;
-  text-align: center;
-  margin-top: 3vh;
-  margin-bottom: 2vh;
-}
-
-.logo_inicio {
-  width: 70px;
-  height: 85px;
-}
-
-.imagen_inicio img {
-  width: 100%;
-  margin-bottom: 2%;
-}
-
-.picada {
-  width: 100%;
-  position: relative;
-}
-
-.body {
-  background: url(../assets/ñoquis_calabaza.jpg);
-  background-size: cover;
-  height: 200px;
-}
-
-.tamaño_imagen {
-  position: relative;
-  width: 20%;
-  height: 50%;
-}
-
-.tamaño_imagen_transicion {
-  position: relative;
-  width: 20%;
-  height: 50%;
-}
-.tamaño_imagen_transicion:hover {
-  width: 30%;
-  height: 60%;
-  transition: all 1s;
-}
-
-.img_catering {
-  width: 400px;
-  height: 600px;
-  position: relative;
-  -o-border-image: none;
-  border-image: none;
-  left: 17%;
-}
-
 .tipografia2 {
   font-family: "Didact Gothic";
 }
@@ -158,91 +37,6 @@ h1 {
 
 .interlineado {
   line-height: 6vh;
-}
-
-footer {
-  display: grid;
-  grid-template-areas: "icon" "nombre" "ubicacion";
-  justify-items: center;
-  text-align: center;
-}
-footer div a i {
-  display: flex;
-  flex-direction: row;
-  grid-area: icon;
-  color: rgba(0, 0, 0, 0.7333333333);
-}
-
-form {
-  position: relative;
-  left: 39%;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-size: medium;
-  background-color: rgba(255, 203, 92, 0.5921568627);
-  border-radius: 10px;
-  width: 400px;
-  height: 400px;
-  align-items: center;
-  font-family: "Didact Gothic";
-  color: #bc5a45;
-  margin-bottom: 17vh;
-  margin-top: 6vh;
-  padding-top: 14px;
-}
-
-input {
-  background-color: rgba(188, 91, 69, 0.2470588235);
-  padding: 1%;
-  border-radius: 3px;
-  border-style: none;
-  font-size: medium;
-}
-
-.btn {
-  background-color: #bc5a45;
-  color: white;
-  border: #bc5a45;
-  border-radius: 4px;
-  padding: 10px 15px 10px 15px;
-  font-family: "Didact Gothic";
-  text-align: center;
-}
-
-.input_mensaje {
-  padding-top: 5%;
-  padding-bottom: 5%;
-  margin-bottom: 3%;
-}
-
-.article_pyp {
-  margin-top: 10vh;
-  font-size: 20px;
-  text-align: center;
-  color: #bc5a45;
-  background-color: #ffcc5c;
-  margin-bottom: 10vh;
-}
-
-.info_congelados {
-  text-align: center;
-  color: #bc5a45;
-  margin-top: 6vh;
-  margin-bottom: 8vh;
-}
-
-.fondo_c {
-  background-color: #ffcc5c;
-  height: 70px;
-  line-height: 30px;
-}
-
-.carousel {
-  width: 70%;
-  justify-content: center;
-  margin-left: 15vw;
-  padding-bottom: 5%;
 }
 
 /* layout */
@@ -368,6 +162,212 @@ input {
   font-family: "Didact Gothic";
 }
 
+/* components */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+header div img {
+  margin-left: 2vw;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 2vw;
+}
+header nav ul li a {
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Didact Gothic";
+  text-decoration: none;
+}
+
+.subclase li:hover > ul {
+  display: block;
+}
+
+.subclase li ul {
+  display: none;
+  list-style-type: none;
+  text-decoration: none;
+  position: absolute;
+  padding: 0.5% 1% 1% 0.5%;
+  text-align: start;
+  font-size: medium;
+  z-index: 3;
+  background-color: rgba(255, 203, 92, 0.5333333333);
+}
+
+h1 {
+  color: #bc5a45;
+  font-family: "Abril Fatface";
+  font-size: 90px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+#colibria {
+  letter-spacing: 6vw;
+  font-family: "Abril Fatface";
+}
+
+.subtitulo {
+  letter-spacing: 1vw;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-family: "Didact Gothic";
+}
+
+.sub_catering {
+  color: #bc5a45;
+  text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+}
+
+.logo_inicio {
+  width: 70px;
+  height: 85px;
+}
+
+.imagen_inicio img {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.picada {
+  width: 100%;
+  position: relative;
+}
+
+.body {
+  background: url(../assets/ñoquis_calabaza.jpg);
+  background-size: cover;
+  height: 200px;
+}
+
+.tamaño_imagen {
+  position: relative;
+  width: 20%;
+  height: 50%;
+}
+
+.tamaño_imagen_transicion {
+  position: relative;
+  width: 20%;
+  height: 50%;
+}
+.tamaño_imagen_transicion:hover {
+  width: 30%;
+  height: 60%;
+  transition: all 1s;
+}
+
+.img_catering {
+  width: 400px;
+  height: 600px;
+  position: relative;
+  -o-border-image: none;
+     border-image: none;
+  left: 17%;
+}
+
+footer {
+  display: grid;
+  grid-template-areas: "icon" "nombre" "ubicacion";
+  justify-items: center;
+  text-align: center;
+}
+footer div a i {
+  display: flex;
+  flex-direction: row;
+  grid-area: icon;
+  color: rgba(0, 0, 0, 0.7333333333);
+}
+
+form {
+  position: relative;
+  left: 39%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: medium;
+  background-color: rgba(255, 203, 92, 0.5921568627);
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  font-family: "Didact Gothic";
+  color: #bc5a45;
+  margin-bottom: 17vh;
+  margin-top: 6vh;
+  padding-top: 14px;
+}
+
+input {
+  background-color: rgba(188, 91, 69, 0.2470588235);
+  padding: 1%;
+  border-radius: 3px;
+  border-style: none;
+  font-size: medium;
+}
+
+.btn {
+  background-color: #bc5a45;
+  color: white;
+  border: #bc5a45;
+  border-radius: 4px;
+  padding: 10px 15px 10px 15px;
+  font-family: "Didact Gothic";
+  text-align: center;
+}
+
+.input_mensaje {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 3%;
+}
+
+.article_pyp {
+  margin-top: 10vh;
+  font-size: 20px;
+  text-align: center;
+  color: #bc5a45;
+  background-color: #ffcc5c;
+  margin-bottom: 10vh;
+}
+
+.info_congelados {
+  text-align: center;
+  color: #bc5a45;
+  margin-top: 6vh;
+  margin-bottom: 8vh;
+}
+
+.fondo_c {
+  background-color: #ffcc5c;
+  height: 70px;
+  line-height: 30px;
+}
+
+.carousel {
+  width: 70%;
+  justify-content: center;
+  margin-left: 15vw;
+  padding-bottom: 5%;
+}
+
 /* responsive*/
 @media screen and (max-width: 575px) {
   header nav ul li {
@@ -443,6 +443,10 @@ input {
     width: 50%;
     height: 70%;
   }
+  .tamaño_imagen_transicion:hover {
+    width: 70%;
+    height: 80%;
+  }
   .contenedor_info_pyp {
     margin-bottom: 0vh;
     margin-left: 5%;
@@ -483,13 +487,4 @@ input {
   .subclase li ul {
     font-size: small;
   }
-}
-main nav ul li {
-  display: inline-block;
-  margin: 1vh 6vw;
-}
-
-.menu_desplegable {
-  display: inline-block;
-  position: relative;
 }/*# sourceMappingURL=main.css.map */

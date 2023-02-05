@@ -1,0 +1,35 @@
+.tipografia2 {
+    font-family: $didact;
+}
+
+.tipografia1 {
+    font-family: $abril;
+}
+
+.color_principal {
+    color: $color_principal;
+}
+
+$text_set: (
+    large: larger,
+    xl: xx-large,
+    interletreado: 20px,
+    interlineado: 6vh
+);
+
+.font_l {
+    font-size: map-get($text_set, large);
+}
+
+.font_xl {
+    font-size: map-get($text_set, xl );
+}
+
+.interletreado {
+    letter-spacing: map-get($text_set , interletreado );
+}
+
+.interlineado{
+    line-height: map-get($text_set , interlineado );
+}
+

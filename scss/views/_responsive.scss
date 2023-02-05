@@ -94,10 +94,10 @@
         width: 50%;
         height: 70%;
 
-        &__hover: {
-            width: 70%;
-            height: 80%;
-        }
+    &:hover {
+        width: 70%;
+        height: 80%;
+    }
     }   
 
     .contenedor_info_pyp {
@@ -113,17 +113,16 @@
         margin-right: 2%;
         
     }
-        .sub_congelados {
-            margin-top: 3vh;
-            font-size: 15px;
-        }
+    .sub_congelados {
+        margin-top: 3vh;
+        font-size: 15px;
+    }
     
-        .tamaño_imagen {
-            width: 70%;
-            height: 90%;
-            margin-bottom: 2%;
-    
-        }
+    .tamaño_imagen {
+        width: 70%;
+        height: 90%;
+        margin-bottom: 2%;
+    }
     
     .fondo3 {
         height: 50%;
