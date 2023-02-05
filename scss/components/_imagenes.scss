@@ -1,40 +1,36 @@
 .imagen_inicio img{
-    width: 100%;
+    @include size (100%, auto);
     margin-bottom: 2%;
 }
 
 .picada {
-    width: 100%;
+    @include size (100%, auto);
     position: relative;
 }
 
 .body {
     background: url(../assets/ñoquis_calabaza.jpg);
     background-size: cover;
-    height: 200px;
+    @include size (auto, 200px);
 }
 
 .tamaño_imagen {
     position: relative;
-    width: 20%;
-    height: 50%;
+    @include size (20%, 50%);
 }
 
 .tamaño_imagen_transicion {
     position: relative;
-    width: 20%;
-    height: 50%;
+    @include size (20%, 50%);
 
 &:hover {
-        width: 30%;
-        height: 60%;
+    @include size (30%, 60%);
         transition: all 1s;
     }
 }  
 
 .img_catering { 
-    width: 400px;
-    height: 600px;
+    @include size (400px, 600px);
     position: relative;
     border-image: none;
     left: 17%;

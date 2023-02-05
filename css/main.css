@@ -93,18 +93,6 @@ body {
   margin-bottom: 12vh;
 }
 
-.grid_nombre {
-  display: grid;
-  grid-area: nombre;
-  justify-items: center;
-}
-
-.grid_direccion {
-  display: grid;
-  grid-area: ubicacion;
-  justify-items: center;
-}
-
 .grid_inicio {
   display: grid;
   grid-template-areas: "titulo1 titulo2" "card1 card2";
@@ -237,16 +225,18 @@ h1 {
 }
 
 .logo_inicio {
-  width: 70px;
   height: 85px;
+  width: 70px;
 }
 
 .imagen_inicio img {
+  height: auto;
   width: 100%;
   margin-bottom: 2%;
 }
 
 .picada {
+  height: auto;
   width: 100%;
   position: relative;
 }
@@ -255,28 +245,29 @@ h1 {
   background: url(../assets/ñoquis_calabaza.jpg);
   background-size: cover;
   height: 200px;
+  width: auto;
 }
 
 .tamaño_imagen {
   position: relative;
-  width: 20%;
   height: 50%;
+  width: 20%;
 }
 
 .tamaño_imagen_transicion {
   position: relative;
-  width: 20%;
   height: 50%;
+  width: 20%;
 }
 .tamaño_imagen_transicion:hover {
-  width: 30%;
   height: 60%;
+  width: 30%;
   transition: all 1s;
 }
 
 .img_catering {
-  width: 400px;
   height: 600px;
+  width: 400px;
   position: relative;
   -o-border-image: none;
      border-image: none;
@@ -285,7 +276,7 @@ h1 {
 
 footer {
   display: grid;
-  grid-template-areas: "icon" "nombre" "ubicacion";
+  grid-template-areas: "icon" "nombre" "ubicacion" "info" "telefono";
   justify-items: center;
   text-align: center;
 }
@@ -294,6 +285,27 @@ footer div a i {
   flex-direction: row;
   grid-area: icon;
   color: rgba(0, 0, 0, 0.7333333333);
+  margin-bottom: 2vh;
+}
+
+.grid_nombre, .grid_tel, .grid_info, .grid_direccion {
+  display: grid;
+  grid-area: nombre;
+  justify-items: center;
+  line-height: 1vh;
+}
+
+.grid_direccion {
+  grid-area: ubicacion;
+  margin-bottom: 3vh;
+}
+
+.grid_info {
+  grid-area: info;
+}
+
+.grid_tel {
+  grid-area: telefono;
 }
 
 form {
@@ -422,6 +434,7 @@ input {
     font-size: x-large;
   }
   .carousel {
+    height: auto;
     width: 100%;
     justify-content: center;
     margin-left: 0vw;
@@ -440,12 +453,12 @@ input {
   .tamaño_imagen_transicion {
     margin-top: 2vh;
     margin-bottom: 1vh;
-    width: 50%;
     height: 70%;
+    width: 50%;
   }
   .tamaño_imagen_transicion:hover {
-    width: 70%;
     height: 80%;
+    width: 70%;
   }
   .contenedor_info_pyp {
     margin-bottom: 0vh;
@@ -463,8 +476,8 @@ input {
     font-size: 15px;
   }
   .tamaño_imagen {
-    width: 70%;
     height: 90%;
+    width: 70%;
     margin-bottom: 2%;
   }
   .fondo3 {

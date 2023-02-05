@@ -70,7 +70,7 @@
     }
     
     .carousel {
-        width: 100%;
+        @include size (100%, auto);
         justify-content: center;
         margin-left: 0vw;
         padding-bottom: 5%;
@@ -91,12 +91,10 @@
     .tamaño_imagen_transicion {
         margin-top: 2vh;
         margin-bottom: 1vh;
-        width: 50%;
-        height: 70%;
+        @include size (50%, 70%);
 
     &:hover {
-        width: 70%;
-        height: 80%;
+        @include size (70%, 80%);
     }
     }   
 
@@ -119,8 +117,7 @@
     }
     
     .tamaño_imagen {
-        width: 70%;
-        height: 90%;
+        @include size (70%, 90%);
         margin-bottom: 2%;
     }
     

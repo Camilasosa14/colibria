@@ -2,7 +2,9 @@ footer {
     display: grid;
     grid-template-areas:"icon"
                         "nombre"
-                        "ubicacion";
+                        "ubicacion"
+                        "info"
+                        "telefono";
     justify-items: center;
     text-align: center;
     div {
@@ -12,7 +14,31 @@ footer {
                 flex-direction: row;
                 grid-area: icon;
                 color: #000000bb;
+                margin-bottom: 2vh;
             }
         }
     }
 }
+
+.grid_nombre {
+    display: grid;
+    grid-area: nombre;
+    justify-items: center;
+    line-height: map-get($text_set , interlineado2 );
+}
+
+.grid_direccion {
+@extend .grid_nombre;
+grid-area: ubicacion;
+margin-bottom: 3vh;
+}
+
+.grid_info {
+    @extend .grid_nombre;
+    grid-area: info;
+    }
+
+    .grid_tel {
+        @extend .grid_nombre;
+        grid-area: telefono;
+        }

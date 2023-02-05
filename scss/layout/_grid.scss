@@ -1,15 +1,3 @@
-.grid_nombre {
-    display: grid;
-    grid-area: nombre;
-    justify-items: center;
-}
-
-.grid_direccion {
-    display: grid;
-    grid-area: ubicacion;
-    justify-items: center;
-}
-
 .grid_inicio {
     display: grid;
     grid-template-areas: "titulo1 titulo2"
@@ -18,7 +6,6 @@
     gap: 10vw;
     justify-content: center;
 }
-
 .titulo1 {
     display: block;
     grid-area: titulo1;
