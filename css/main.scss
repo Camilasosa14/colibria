@@ -1,0 +1,27 @@
+/* normalize */
+@import "../scss/normalize/resets";
+@import "../scss/normalize/body";
+
+/* utilities */
+@import "../scss/utilities/colors";
+@import "../scss/utilities/fonts";
+
+/* layout */
+@import "../scss/layout/flex";
+@import "../scss/layout/grid";
+
+/* components */
+@import "../scss/components/navbar";
+@import "../scss/components/titles";
+@import "../scss/components/logo";
+@import "../scss/components/imagenes";
+@import "../scss/components/font_styles";
+@import "../scss/components/footer";
+@import "../scss/components/form";
+@import "../scss/components/text";
+@import "../scss/components/carousel";
+
+
+
+/* responsive*/
+@import "../scss/views/responsive";

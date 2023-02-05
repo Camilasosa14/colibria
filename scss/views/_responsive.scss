@@ -1,0 +1,152 @@
+@media screen and (max-width: 575px) {
+    header {
+        nav {
+            ul {
+                li {
+                    display: inline-block;
+                    margin-right: none;
+                    margin: 2vw;
+                    text-align: center;
+                    font-size: 70%;
+                    align-content: center;
+                        a {
+                            margin-top: 2vh;
+                        }
+                }
+            }
+        }
+    }
+    
+    #colibria {
+        font-size: 300%;
+        margin-top: 5%;
+    }
+    
+    .imagen_inicio{
+        margin-top: 8%;
+        width: 100%;
+    }
+    
+    .subtitulo {
+        margin-bottom: 5%;
+        position: relative;
+        margin-top: 2%;
+        font-size: large;
+        word-spacing: 5%;
+    }
+    
+    .logo_inicio {
+        width: 30px;
+        height: 40px;
+    }
+    
+    .grid_inicio {
+        display: grid;
+        grid-template-areas: "titulo1"
+                                "card1"
+                                "titulo2"
+                                "card2";
+        grid-template-columns:40vw;
+        gap: 0vw;
+        justify-content: center;
+    }
+    
+    .titulo2 {
+        margin-top: 25%;
+    }
+    
+    .info2{
+    margin-bottom: 10%;
+    padding-left: 2%;
+    padding-right: 5vw;
+    }
+    
+    .font_l {
+        font-size:medium
+    }
+    
+    .font_xl {
+        font-size: x-large;
+    }
+    
+    .carousel {
+        width: 100%;
+        justify-content: center;
+        margin-left: 0vw;
+        padding-bottom: 5%;
+    }
+    
+    h1 {
+        color: $color_principal;
+        font-family: $abril;
+        font-size: 50px;
+        letter-spacing: 10px;
+        text-align: center;
+    }
+    
+    .img_flex {
+        flex-direction: column;
+    }
+
+    .tamaño_imagen_transicion {
+        margin-top: 2vh;
+        margin-bottom: 1vh;
+        width: 50%;
+        height: 70%;
+
+        &__hover: {
+            width: 70%;
+            height: 80%;
+        }
+    }   
+
+    .contenedor_info_pyp {
+        margin-bottom: 0vh;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .article_pyp {
+        margin-top: 6vh;
+        font-size: 18px;
+        margin-left: 2%;
+        margin-right: 2%;
+        
+    }
+        .sub_congelados {
+            margin-top: 3vh;
+            font-size: 15px;
+        }
+    
+        .tamaño_imagen {
+            width: 70%;
+            height: 90%;
+            margin-bottom: 2%;
+    
+        }
+    
+    .fondo3 {
+        height: 50%;
+    }
+
+    .fondo_c {
+        height: 50%;
+    }
+    
+    .body {
+        background: url(../assets/ñoquis_calabaza.jpg);
+        background-size:cover;
+        width: 100%;
+        height: auto;
+    }
+    
+    form {
+        left: 16%;
+        background-color: $color_secundario;
+        border-radius: 5px;
+        }
+    
+        .subclase li ul{
+            font-size: small;
+        }
+    }

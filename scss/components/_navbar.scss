@@ -1,0 +1,55 @@
+header{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start ;
+    align-items: center;
+    text-decoration: none;
+    list-style-type:none;
+
+    div {
+        img {
+            margin-left: 2vw;
+        }
+    }
+
+    nav {
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start ;
+            li {
+                display: inline-block;
+                margin-right: 2vw;
+                a {
+                    color: rgb(0, 0, 0);
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start ;
+                    align-items: center;
+                    font-family: $didact;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+
+.subclase {
+    li {
+        &:hover > { 
+            display: block;
+                ul {
+                    display: none;
+                    list-style-type: none;
+                    text-decoration: none;
+                    position: absolute;
+                    padding: 0.5% 1% 1% 0.5%;
+                    text-align: start;
+                    font-size: medium;
+                    z-index: 3;
+                    background-color: #ffcb5c88;
+                }
+        }
+    }
+}

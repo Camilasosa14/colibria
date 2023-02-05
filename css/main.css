@@ -1,0 +1,495 @@
+@charset "UTF-8";
+/* normalize */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fdf9ef;
+}
+
+/* utilities */
+/* components */
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+  list-style-type: none;
+}
+header div img {
+  margin-left: 2vw;
+}
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 2vw;
+}
+header nav ul li a {
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Didact Gothic";
+  text-decoration: none;
+}
+
+.subclase li ul {
+  display: none;
+  list-style-type: none;
+  text-decoration: none;
+  position: absolute;
+  padding: 0.5% 1% 1% 0.5%;
+  text-align: start;
+  font-size: medium;
+  z-index: 3;
+  background-color: rgba(255, 203, 92, 0.5333333333);
+}
+
+.subclase li:hover > ul{
+  display: block;
+}
+
+h1 {
+  color: #bc5a45;
+  font-family: "Abril Fatface";
+  font-size: 90px;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+#colibria {
+  letter-spacing: 6vw;
+  font-family: "Abril Fatface";
+}
+
+.subtitulo {
+  letter-spacing: 1vw;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  font-family: "Didact Gothic";
+}
+
+.sub_catering {
+  color: #bc5a45;
+  text-align: center;
+  margin-top: 3vh;
+  margin-bottom: 2vh;
+}
+
+.logo_inicio {
+  width: 70px;
+  height: 85px;
+}
+
+.imagen_inicio img {
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.picada {
+  width: 100%;
+  position: relative;
+}
+
+.body {
+  background: url(../assets/ñoquis_calabaza.jpg);
+  background-size: cover;
+  height: 200px;
+}
+
+.tamaño_imagen {
+  position: relative;
+  width: 20%;
+  height: 50%;
+}
+
+.tamaño_imagen_transicion {
+  position: relative;
+  width: 20%;
+  height: 50%;
+}
+.tamaño_imagen_transicion:hover {
+  width: 30%;
+  height: 60%;
+  transition: all 1s;
+}
+
+.img_catering {
+  width: 400px;
+  height: 600px;
+  position: relative;
+  -o-border-image: none;
+  border-image: none;
+  left: 17%;
+}
+
+.tipografia2 {
+  font-family: "Didact Gothic";
+}
+
+.tipografia1 {
+  font-family: "Abril Fatface";
+}
+
+.color_principal {
+  color: #bc5a45;
+}
+
+.font_l {
+  font-size: larger;
+}
+
+.font_xl {
+  font-size: xx-large;
+}
+
+.interletreado {
+  letter-spacing: 20px;
+}
+
+.interlineado {
+  line-height: 6vh;
+}
+
+footer {
+  display: grid;
+  grid-template-areas: "icon" "nombre" "ubicacion";
+  justify-items: center;
+  text-align: center;
+}
+footer div a i {
+  display: flex;
+  flex-direction: row;
+  grid-area: icon;
+  color: rgba(0, 0, 0, 0.7333333333);
+}
+
+form {
+  position: relative;
+  left: 39%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: medium;
+  background-color: rgba(255, 203, 92, 0.5921568627);
+  border-radius: 10px;
+  width: 400px;
+  height: 400px;
+  align-items: center;
+  font-family: "Didact Gothic";
+  color: #bc5a45;
+  margin-bottom: 17vh;
+  margin-top: 6vh;
+  padding-top: 14px;
+}
+
+input {
+  background-color: rgba(188, 91, 69, 0.2470588235);
+  padding: 1%;
+  border-radius: 3px;
+  border-style: none;
+  font-size: medium;
+}
+
+.btn {
+  background-color: #bc5a45;
+  color: white;
+  border: #bc5a45;
+  border-radius: 4px;
+  padding: 10px 15px 10px 15px;
+  font-family: "Didact Gothic";
+  text-align: center;
+}
+
+.input_mensaje {
+  padding-top: 5%;
+  padding-bottom: 5%;
+  margin-bottom: 3%;
+}
+
+.article_pyp {
+  margin-top: 10vh;
+  font-size: 20px;
+  text-align: center;
+  color: #bc5a45;
+  background-color: #ffcc5c;
+  margin-bottom: 10vh;
+}
+
+.info_congelados {
+  text-align: center;
+  color: #bc5a45;
+  margin-top: 6vh;
+  margin-bottom: 8vh;
+}
+
+.fondo_c {
+  background-color: #ffcc5c;
+  height: 70px;
+  line-height: 30px;
+}
+
+.carousel {
+  width: 70%;
+  justify-content: center;
+  margin-left: 15vw;
+  padding-bottom: 5%;
+}
+
+/* layout */
+.contenedor_flex_inicio {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5vh;
+  margin-top: 1vh;
+  color: #bc5a45;
+  background-color: #ffcc5c;
+}
+
+.contenedor_info_pyp {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  color: #bc5a45;
+  line-height: 4vh;
+  margin-bottom: 5vh;
+}
+
+.img_flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 12vh;
+  margin-bottom: 12vh;
+}
+
+.padre_flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vh;
+}
+
+.sub_congelados {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 5vh;
+  color: #bc5a45;
+  font-family: "Didact Gothic";
+  text-decoration: none;
+  list-style-type: none;
+  font-size: 20px;
+  background-color: #ffcc5c;
+  margin-bottom: 12vh;
+}
+
+.grid_nombre {
+  display: grid;
+  grid-area: nombre;
+  justify-items: center;
+}
+
+.grid_direccion {
+  display: grid;
+  grid-area: ubicacion;
+  justify-items: center;
+}
+
+.grid_inicio {
+  display: grid;
+  grid-template-areas: "titulo1 titulo2" "card1 card2";
+  grid-template-columns: 30vw 30vw;
+  gap: 10vw;
+  justify-content: center;
+}
+
+.titulo1 {
+  display: block;
+  grid-area: titulo1;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: lighter;
+  margin-bottom: 8%;
+  font-family: "Abril Fatface";
+  font-weight: initial;
+  color: #bc5a45;
+  font-size: large;
+}
+
+.info1 {
+  display: block;
+  grid-area: card1;
+  text-align: center;
+  background-color: #dbdbab;
+  border-radius: 2%;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  padding-left: 7%;
+  padding-right: 7%;
+  font-family: "Didact Gothic";
+  line-height: 6vh;
+  color: #bc5a45;
+}
+
+.titulo2 {
+  display: block;
+  grid-area: titulo2;
+  text-align: center;
+  margin-bottom: 2%;
+  font-family: "Abril Fatface";
+  font-weight: initial;
+  color: #bc5a45;
+  font-size: large;
+}
+
+.info2 {
+  grid-area: card2;
+  background-color: #dbdbab;
+  border-radius: 2%;
+  color: #bc5a45;
+  padding-top: 3%;
+  padding-bottom: 2%;
+  font-family: "Didact Gothic";
+}
+
+/* responsive*/
+@media screen and (max-width: 575px) {
+  header nav ul li {
+    display: inline-block;
+    margin-right: none;
+    margin: 2vw;
+    text-align: center;
+    font-size: 70%;
+    align-content: center;
+  }
+  header nav ul li a {
+    margin-top: 2vh;
+  }
+  #colibria {
+    font-size: 300%;
+    margin-top: 5%;
+  }
+  .imagen_inicio {
+    margin-top: 8%;
+    width: 100%;
+  }
+  .subtitulo {
+    margin-bottom: 5%;
+    position: relative;
+    margin-top: 2%;
+    font-size: large;
+    word-spacing: 5%;
+  }
+  .logo_inicio {
+    width: 30px;
+    height: 40px;
+  }
+  .grid_inicio {
+    display: grid;
+    grid-template-areas: "titulo1" "card1" "titulo2" "card2";
+    grid-template-columns: 40vw;
+    gap: 0vw;
+    justify-content: center;
+  }
+  .titulo2 {
+    margin-top: 25%;
+  }
+  .info2 {
+    margin-bottom: 10%;
+    padding-left: 2%;
+    padding-right: 5vw;
+  }
+  .font_l {
+    font-size: medium;
+  }
+  .font_xl {
+    font-size: x-large;
+  }
+  .carousel {
+    width: 100%;
+    justify-content: center;
+    margin-left: 0vw;
+    padding-bottom: 5%;
+  }
+  h1 {
+    color: #bc5a45;
+    font-family: "Abril Fatface";
+    font-size: 50px;
+    letter-spacing: 10px;
+    text-align: center;
+  }
+  .img_flex {
+    flex-direction: column;
+  }
+  .tamaño_imagen_transicion {
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    width: 50%;
+    height: 70%;
+  }
+  .contenedor_info_pyp {
+    margin-bottom: 0vh;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .article_pyp {
+    margin-top: 6vh;
+    font-size: 18px;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .sub_congelados {
+    margin-top: 3vh;
+    font-size: 15px;
+  }
+  .tamaño_imagen {
+    width: 70%;
+    height: 90%;
+    margin-bottom: 2%;
+  }
+  .fondo3 {
+    height: 50%;
+  }
+  .fondo_c {
+    height: 50%;
+  }
+  .body {
+    background: url(../assets/ñoquis_calabaza.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+  form {
+    left: 16%;
+    background-color: #ffcc5c;
+    border-radius: 5px;
+  }
+  .subclase li ul {
+    font-size: small;
+  }
+}
+main nav ul li {
+  display: inline-block;
+  margin: 1vh 6vw;
+}
+
+.menu_desplegable {
+  display: inline-block;
+  position: relative;
+}/*# sourceMappingURL=main.css.map */

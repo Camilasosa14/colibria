@@ -1,0 +1,53 @@
+.contenedor_flex_inicio {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+    color: $color_principal;
+    background-color:$color_secundario;
+}
+
+.contenedor_info_pyp {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: $color_principal;
+    line-height: 4vh;
+    margin-bottom: 5vh;
+}
+
+.img_flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 12vh;
+    margin-bottom: 12vh;
+}
+
+.padre_flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
+    
+}
+
+.sub_congelados {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 5vh;
+    color: $color_principal;
+    font-family: $didact;
+    text-decoration: none;
+    list-style-type:none;
+    font-size: 20px;
+    background-color: $color_secundario;
+    margin-bottom: 12vh;
+}
