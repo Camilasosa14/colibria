@@ -107,7 +107,7 @@ body {
   text-align: center;
   letter-spacing: 1px;
   font-weight: lighter;
-  margin-bottom: 8%;
+  margin-bottom: 2%;
   font-family: "Abril Fatface";
   font-weight: initial;
   color: #bc5a45;
@@ -125,7 +125,7 @@ body {
   padding-left: 7%;
   padding-right: 7%;
   font-family: "Didact Gothic";
-  line-height: 6vh;
+  line-height: 5vh;
   color: #bc5a45;
 }
 
@@ -179,6 +179,10 @@ header nav ul li a {
   align-items: center;
   font-family: "Didact Gothic";
   text-decoration: none;
+}
+
+#menu-check, #menu {
+  display: none;
 }
 
 .subclase li:hover > ul {
@@ -344,6 +348,9 @@ input {
   font-family: "Didact Gothic";
   text-align: center;
 }
+.btn:hover {
+  background-color: rgba(226, 167, 6, 0.5803921569);
+}
 
 .input_mensaje {
   padding-top: 5%;
@@ -382,20 +389,61 @@ input {
 
 /* responsive*/
 @media screen and (max-width: 575px) {
-  header nav ul li {
-    display: inline-block;
-    margin-right: none;
-    margin: 2vw;
-    text-align: center;
-    font-size: 70%;
-    align-content: center;
+  #menu-check:not(:checked) ~ nav {
+    display: none;
+  }
+  #menu-check:checked ~ nav {
+    display: block;
+  }
+  #menu {
+    display: block;
+    color: #bc5a45;
+    position: absolute;
+    right: 0.5rem;
+    font-weight: bold;
+    border: 2px solid #bc5a45;
+    border-radius: 20%;
+    padding: 2px;
+  }
+  #menu:hover {
+    background-color: #bc5a45;
+    color: white;
+  }
+  #menu-cerrar {
+    display: none;
+  }
+  #menu-check:checked ~ label #menu-abrir {
+    display: none;
+  }
+  #menu-check:checked ~ label #menu-cerrar {
+    display: block;
+  }
+  header {
+    background-color: rgba(188, 91, 69, 0.6431372549);
+  }
+  header nav {
+    z-index: 9999;
+    margin-left: 55vw;
+    position: absolute;
+    margin-top: 21vh;
+  }
+  header nav ul {
+    flex-direction: column;
+    margin-top: 2%;
   }
   header nav ul li a {
-    margin-top: 2vh;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: rgba(188, 91, 69, 0.8823529412);
+    color: white;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    line-height: 6vh;
   }
   #colibria {
     font-size: 300%;
-    margin-top: 5%;
+    margin-top: 2%;
+    margin-left: 2vw;
   }
   .imagen_inicio {
     margin-top: 8%;
@@ -409,8 +457,8 @@ input {
     word-spacing: 5%;
   }
   .logo_inicio {
-    width: 30px;
-    height: 40px;
+    width: 60px;
+    height: 70px;
   }
   .grid_inicio {
     display: grid;

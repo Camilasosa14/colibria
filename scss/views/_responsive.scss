@@ -1,25 +1,72 @@
 @media screen and (max-width: 575px) {
+
+    #menu-check:not(:checked) ~ nav {
+        display: none;
+    }
+
+    #menu-check:checked ~ nav {
+        display: block;
+    }
+
+    #menu {
+        display: block;
+        color: $color_principal;
+        position: absolute;
+        right: 0.5rem;
+        font-weight: bold;
+        border: 2px solid $color_principal;
+        border-radius: 20%;
+        padding: 2px;
+
+    &:hover {
+        background-color: $color_principal;
+        color: white;
+    }
+    }
+
+    #menu-cerrar {
+        display: none;
+    }
+
+    #menu-check:checked ~ label #menu-abrir {
+        display: none;
+    }
+
+    #menu-check:checked ~ label #menu-cerrar {
+        display: block;
+    }
+
     header {
+        background-color: $color_principal_degradado;
         nav {
+            z-index: 9999;
+            margin-left: 55vw;
+            position: absolute;
+            margin-top: 21vh;
             ul {
+                flex-direction: column;
+                margin-top: 2%;
                 li {
-                    display: inline-block;
-                    margin-right: none;
-                    margin: 2vw;
-                    text-align: center;
-                    font-size: 70%;
-                    align-content: center;
-                        a {
-                            margin-top: 2vh;
-                        }
+                    
+                    a {
+                        flex-direction: column;
+                        align-items:flex-end;
+                        background-color: #bc5b45e1;
+                        color: white;
+                        padding-left: 2vw;
+                        padding-right: 2vw;
+                        line-height: map-get($text_set , interlineado);
+                        
+                    }
                 }
             }
         }
     }
-    
+
     #colibria {
         font-size: 300%;
-        margin-top: 5%;
+        margin-top: 2%;
+        margin-left: 2vw;
     }
     
     .imagen_inicio{
@@ -36,8 +83,8 @@
     }
     
     .logo_inicio {
-        width: 30px;
-        height: 40px;
+        width: 60px;
+        height: 70px;
     }
     
     .grid_inicio {

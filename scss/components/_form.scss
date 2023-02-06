@@ -15,28 +15,32 @@ form {
     margin-bottom: 17vh;
     margin-top: 6vh;
     padding-top: 14px;
-    }
+}
 
-    input {
-        background-color: #bc5b453f;
-        padding: 1%;
-        border-radius: 3px;
-        border-style: none;
-        font-size: medium;
-    }
+input {
+    background-color: #bc5b453f;
+    padding: 1%;
+    border-radius: 3px;
+    border-style: none;
+    font-size: medium;
+}
 
-    .btn {
-        background-color: $color_principal;
-        color: white;
-        border: $color_principal;
-        border-radius: 4px;
-        padding: 10px 15px 10px 15px;
-        font-family: $didact;
-        text-align: center;
+.btn {
+    background-color: $color_principal;
+    color: white;
+    border: $color_principal;
+    border-radius: 4px;
+    padding: 10px 15px 10px 15px;
+    font-family: $didact;
+    text-align: center;
+    
+    &:hover {
+        background-color: #e2a70694;
     }
+}
 
-    .input_mensaje {
-        padding-top : 5%;
-        padding-bottom: 5%;
-        margin-bottom: 3%;
-    }
+.input_mensaje {
+    padding-top : 5%;
+    padding-bottom: 5%;
+    margin-bottom: 3%;
+}
