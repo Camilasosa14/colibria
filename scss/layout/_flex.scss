@@ -15,6 +15,15 @@
     color: $color_principal;
     line-height: 4vh;
     margin-bottom: 5vh;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 1%;
+    h3 {
+        font-family: $abril;
+    }
+    p {
+        font-family: $didact;
+    }
 }
 
 .img_flex {
@@ -34,7 +43,6 @@
     margin-left: 10vw;
     margin-right: 10vw;
     margin-top: 5vh;
-    
 }
 
 .sub_congelados {
@@ -50,4 +58,55 @@
     font-size: 20px;
     background-color: $color_secundario;
     margin-bottom: 12vh;
+}
+
+.info_congelados {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family: $didact;
+    color: $color_principal;
+    margin-top: 6vh;
+    margin-bottom: 10vh;
+        h3 {
+        font-size: map-get($text_set, xl);
+        font-family: $abril;
+        }
+        p {
+            background-color: $color_secundario;
+            margin-left: 30%;
+            margin-right: 30%;
+            padding: 1%;
+        }
+}
+
+.article_pyp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10vh;
+    text-align: center;
+    color: $color_principal;
+    background-color: $color_secundario;
+    margin-bottom: 10vh;
+    font-family: $didact;
+    padding-bottom: 3vh;
+    h3 {
+        padding-top: 4vh;
+        padding-bottom: 1vh;
+        font-family: $abril;
+        font-size: map-get($text_set , xl);
+    }
+    h4 {
+        font-size: 1.5em;
+        line-height: map-get($text_set , interlineado );
+    }
+    p {
+        font-family: $didact;
+        padding-top: 5vh;
+        padding-left: 25vw;
+        padding-right: 25vw;
+        font-size: map-get($text_set , large );
+    }
 }
