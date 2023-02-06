@@ -423,9 +423,9 @@ input {
   }
   header nav {
     z-index: 9999;
-    margin-left: 55vw;
+    margin-left: 50vw;
     position: absolute;
-    margin-top: 21vh;
+    margin-top: 22vh;
   }
   header nav ul {
     flex-direction: column;
@@ -434,10 +434,11 @@ input {
   header nav ul li a {
     flex-direction: column;
     align-items: flex-end;
+    text-align: end;
     background-color: rgba(188, 91, 69, 0.8823529412);
     color: white;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
     line-height: 6vh;
   }
   #colibria {
@@ -458,7 +459,7 @@ input {
   }
   .logo_inicio {
     width: 60px;
-    height: 70px;
+    height: 80px;
   }
   .grid_inicio {
     display: grid;

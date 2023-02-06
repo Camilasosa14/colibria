@@ -40,9 +40,9 @@
         background-color: $color_principal_degradado;
         nav {
             z-index: 9999;
-            margin-left: 55vw;
+            margin-left: 50vw;
             position: absolute;
-            margin-top: 21vh;
+            margin-top: 22vh;
             ul {
                 flex-direction: column;
                 margin-top: 2%;
@@ -51,10 +51,11 @@
                     a {
                         flex-direction: column;
                         align-items:flex-end;
+                        text-align: end;
                         background-color: #bc5b45e1;
                         color: white;
-                        padding-left: 2vw;
-                        padding-right: 2vw;
+                        padding-left: 4vw;
+                        padding-right: 4vw;
                         line-height: map-get($text_set , interlineado);
                         
                     }
@@ -84,7 +85,7 @@
     
     .logo_inicio {
         width: 60px;
-        height: 70px;
+        height: 80px;
     }
     
     .grid_inicio {
