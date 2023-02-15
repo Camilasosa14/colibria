@@ -22,6 +22,7 @@ header{
             li {
                 display: inline-block;
                 margin-right: 2vw;
+                margin-top: 1vh;
                 a {
                     color: rgb(0, 0, 0);
                     display: flex;
@@ -30,6 +31,18 @@ header{
                     align-items: center;
                     font-family: $didact;
                     text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+header {
+    nav {
+        ul {
+            li {
+                a:hover {
+                    color: $color_principal;
                 }
             }
         }
@@ -46,8 +59,6 @@ header{
             ul {
                 display: block;
             }
-            
-
         }
     }
 }
@@ -63,7 +74,7 @@ header{
             text-align: start;
             font-size: medium;
             z-index: 3;
-            background-color: #ffcb5c88;
+            background-color: #ffcb5cc7;
         }
     }
 }
