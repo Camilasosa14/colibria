@@ -45,7 +45,7 @@
             margin-top: 22vh;
             ul {
                 flex-direction: column;
-                margin-top: 2%;
+                margin-top: 5%;
                 li {
                     
                     a {
@@ -240,7 +240,31 @@
 
     #menu {
         margin-right: 1px;
+        margin-top: 2px;
+    }
+
+    header {
+        
+        nav {
+            z-index: 9999;
+            margin-left: 50vw;
+            position: absolute;
+            margin-top: 30vh;
+        }
+    }
+
+    .info2{
+        margin-bottom: 10%;
+        padding-left: 2%;
+        ul {
+            li {
+                margin-right: 9vw;
+                list-style-type: none;
+                text-align: center;
+            }
+        }
     }
 }
+
 
 
