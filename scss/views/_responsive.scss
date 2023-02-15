@@ -199,7 +199,6 @@
     }
 
     form {
-        left: 25%;
         background-color: $color_secundario;
         border-radius: 5px;
         width: 300px;
@@ -223,4 +222,19 @@
     }
 
 }
+
+@media screen and (max-width: 420px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    form {
+        left: 15%;
+    }
+
+    #menu {
+        margin-right: 1px;
+    }
+}
+
 
