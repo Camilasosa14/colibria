@@ -310,7 +310,7 @@ h1 {
 }
 
 .imagen_inicio img {
-  height: 34.7rem;
+  height: 100vh;
   width: 100%;
   margin-bottom: 2%;
 }
@@ -390,7 +390,7 @@ footer div a i {
 
 form {
   position: relative;
-  left: 39%;
+  left: 35vw;
   display: flex;
   flex-direction: column;
   text-align: center;
