@@ -66,18 +66,17 @@
 
     #colibria {
         font-size: 300%;
-        margin-top: 2%;
+        margin-top: 0%;
         margin-left: 2vw;
     }
     
     .imagen_inicio{
-        margin-top: 8%;
-        width: 100%;
+        margin-top: 5%;
+        @include size (100%, auto);
     }
     
     .subtitulo {
-        margin-bottom: 5%;
-        position: relative;
+        margin-bottom: 1%;
         margin-top: 2%;
         font-size: large;
         word-spacing: 5%;
@@ -118,9 +117,10 @@
     }
     
     .carousel {
-        @include size (100%, auto);
+        @include size (98%, auto);
         justify-content: center;
-        margin-left: 0vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
         padding-bottom: 5%;
     }
     
@@ -199,9 +199,17 @@
     }
 
     form {
-        left: 16%;
+        left: 25%;
         background-color: $color_secundario;
         border-radius: 5px;
+        width: 300px;
+        height: 380px;
+        align-items: center;
+        font-family: $didact;
+        color: $color_principal;
+        margin-bottom: 17vh;
+        margin-top: 6vh;
+        padding-top: 14px;
         }
 
     .subclase li ul{

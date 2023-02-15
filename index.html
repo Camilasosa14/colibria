@@ -9,6 +9,8 @@
     <meta name="keywords"  content="vegano, comida vegana, animales, veganismo, pastas, empanadas, tortas, pastelería">
     <meta name="description" content="En Colibria te ofecemos la posibilidad de comer rico, nutritivo y vegano. El primer paso hacia un mundo más empático comienza en tu plato. ">
 
+<!--CDN ANIMATE CSS-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <!-- google fonts abril_fat_face-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -56,19 +58,20 @@
         </nav>
     </header>    
 
-            <!--bcg img-->
-            <div class= "imagen_inicio ">
-                <img src="./assets/fondo_inicio.jpg" alt="trufas">
-            </div>
+
 
     <main>
-        <section>
-            <h1 class="color_principal  conteiner-fluid col-12 text-center " id="colibria"> Colibria</h1>
+        <section class=" animate__animated animate__fadeIn ">
+            <h1 class="color_principal  conteiner-fluid col-12 text-center" id="colibria"> Colibria</h1>
             <h2 class="color_principal subtitulo text-center col-12" >alimentación vegana</h2> 
         </section>
 
+        <!--bcg img-->
+        <div class= "imagen_inicio conteiner-fluid">
+            <img src="./assets/fondo_inicio.jpg" alt="trufas">
+        </div>
 
-
+        <!--informacion inicio-->
         <section class=" contenedor_flex_inicio  text-center font_l tipografia2 ">
             <div>
                 <p>En Colibria trabajamos por un futuro en el que la alimentación sea vegana, sostenible y saludable </p>
@@ -110,6 +113,7 @@
             </button>
         </div>
     
+        <!--Cards info-->
         <section class="grid_inicio conteiner-fluid">
             <article class="">
                 <p class="titulo1">¿Por qué elegir y qué es el veganismo?</p>

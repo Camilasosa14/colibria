@@ -20,6 +20,15 @@ footer {
     }
 }
 
+footer {
+    div {
+        a {
+            i:hover {
+                color: $color_principal;
+            }
+        }
+    }
+}
 .grid_nombre {
     display: grid;
     grid-area: nombre;
@@ -38,7 +47,7 @@ margin-bottom: 3vh;
     grid-area: info;
     }
 
-    .grid_tel {
-        @extend .grid_nombre;
-        grid-area: telefono;
-        }
+.grid_tel {
+    @extend .grid_nombre;
+    grid-area: telefono;
+    }
