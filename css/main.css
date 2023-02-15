@@ -167,7 +167,7 @@ body {
   text-align: center;
   letter-spacing: 1px;
   font-weight: lighter;
-  margin-bottom: 10%;
+  margin-bottom: 8%;
   font-family: "Abril Fatface";
   font-weight: initial;
   color: #bc5a45;
@@ -180,8 +180,8 @@ body {
   text-align: center;
   background-color: #dbdbab;
   border-radius: 2%;
-  padding-top: 7%;
-  padding-bottom: 2%;
+  padding-top: 9%;
+  padding-bottom: 5%;
   padding-left: 7%;
   padding-right: 7%;
   font-family: "Didact Gothic";
@@ -205,9 +205,15 @@ body {
   background-color: #dbdbab;
   border-radius: 2%;
   color: #bc5a45;
-  padding-top: 3%;
-  padding-bottom: 2%;
+  padding-top: 6%;
+  padding-bottom: 4%;
   font-family: "Didact Gothic";
+}
+.info2 ul li {
+  margin-top: 3%;
+  margin-right: 1vw;
+  list-style-type: none;
+  text-align: center;
 }
 
 /* components */
@@ -515,7 +521,7 @@ input {
   .grid_inicio {
     display: grid;
     grid-template-areas: "titulo1" "card1" "titulo2" "card2";
-    grid-template-columns: 40vw;
+    grid-template-columns: 60vw;
     gap: 0vw;
     justify-content: center;
   }
@@ -525,7 +531,11 @@ input {
   .info2 {
     margin-bottom: 10%;
     padding-left: 2%;
-    padding-right: 5vw;
+  }
+  .info2 ul li {
+    margin-right: 6vw;
+    list-style-type: none;
+    text-align: center;
   }
   .font_l {
     font-size: medium;

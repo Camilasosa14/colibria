@@ -93,11 +93,11 @@
                                 "card1"
                                 "titulo2"
                                 "card2";
-        grid-template-columns:40vw;
+        grid-template-columns:60vw;
         gap: 0vw;
         justify-content: center;
     }
-    
+
     .titulo2 {
         margin-top: 25%;
     }
@@ -105,7 +105,13 @@
     .info2{
         margin-bottom: 10%;
         padding-left: 2%;
-        padding-right: 5vw;
+        ul {
+            li {
+                margin-right: 6vw;
+                list-style-type: none;
+                text-align: center;
+            }
+        }
     }
     
     .font_l {
